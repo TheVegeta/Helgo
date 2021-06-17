@@ -1,0 +1,43 @@
+:root {
+  --col-pink: #f45e8b;
+}
+
+.bg-pink {
+  background-color: var(--col-pink);
+}
+
+.curved {
+  position: relative;
+  background: var(--col-pink);
+  height: 10vh;
+  border-bottom-left-radius: 50% 60%;
+  border-bottom-right-radius: 50% 60%;
+}
+
+.text-pink {
+  color: var(--col-pink);
+}
+
+.bg-gray {
+  background-color: #dcdcdc;
+}
+
+.btn-outline-pink {
+  border: 3px solid var(--col-pink);
+}
+
+.btn-outline-pink:hover {
+  color: var(--col-pink);
+}
+
+.btn-outline-pink:focus {
+  box-shadow: 0 0 0 0.05rem var(--col-pink);
+}
+
+.a-link {
+  text-decoration: none;
+}
+
+.a-link:hover {
+  text-decoration: underline;
+}
